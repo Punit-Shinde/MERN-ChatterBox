@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.png");
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.jpg");
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
 	background-position: center;
 }
 
@@ -26,6 +26,13 @@ body {
 ::-webkit-scrollbar-thumb:hover {
 	background: #242424;
 }
+
+/* Divider color */
+.divider {
+	border-top: 1px solid;
+	--tw-border-opacity: 1;
+    border-color: rgb(82 82 91 / var(--tw-border-opacity));
+  }
 
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */
 .shake {
